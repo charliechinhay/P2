@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #1f2a3a;
+}
+
+header img {
+    width: 100px;
+    padding: 10px 10px;
+}
+
+header nav {
+    background-color: #354963;
+    color: white;
+    padding: 0.5em;
+}
+
+header nav span {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+main {
+    padding: 2em;
+    background-color: #e3e6e6;
+}
+
+.banner-orange {
+    background-color: #e3e6e6;
+}
+
+.banner-orange p {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.banner-green {
+    text-align: center;
+    background-image: url('assets/bg-image.png');
+    background-position: center;
+    background-size: cover;
+    padding: 1em 0;
+    margin: 2em 0;
+
+}
+
+.banner-green h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.banner-green span {
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-top: 1em;
+}
+
+.section-row-1 {
+    background-color: white;
+    padding-bottom: 1.5em;
+}
+
+.row-1 {
+    display: flex;
+
+    width: 100%;
+
+}
+
+.title-row-1 {
+    display: block;
+    padding: 0.5em 0.5em 0;
+}
+
+.img-row-1 {
+    width: 300px;
+    height: 370px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 0.4em;
+    box-shadow: black 2px 2px 5px 0;
+}
+
+.img-visor {
+    width: 100%;
+}
