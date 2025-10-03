@@ -69,7 +69,6 @@ main {
 
 .row-1 {
     display: flex;
-
     width: 100%;
 
 }
@@ -88,6 +87,69 @@ main {
     box-shadow: black 2px 2px 5px 0;
 }
 
-.img-visor {
+.img-visor,
+.img-headphones {
     width: 100%;
+    margin-top: 2em;
+}
+
+.subtitle-visor,
+.subtitle-headphones {
+    text-align: center;
+    margin-top: 0;
+}
+
+.link-visor,
+.link-headphones {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.visor span,
+.headphones span {
+    margin-left: 0.7em;
+}
+
+.section-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-box {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-1 {
+    background-color: white;
+    width: 24%;
+    margin: 2em 0;
+}
+
+.card-content {
+    width: 50%;
+
+}
+
+.card-content img {
+    width: 100%;
+}
+
+.card-content p {
+    text-align: left;
+    margin: 0 0 0 3em;
+}
+
+.link-card {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.see-all {
+    padding: 2em 0 1em 2em;
+}
+
+.card-title {
+    padding: 1em 0 0.2em 2em;
 }
