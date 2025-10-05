@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #1f2a3a;
+}
+
+header img {
+    width: 100px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+nav {
+    padding: 0.5em;
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+
+}
+
+header nav span {
+    margin: 0 15px;
+    cursor: pointer;
+
+}
+
+header nav span:hover {
+    text-decoration: underline white;
+}
+
+main {
+    padding: 2em;
+    background-color: #e3e6e6;
+}
+
+.banner-orange {
+    background-color: #e3e6e6;
+    cursor: pointer;
+}
+
+.banner-orange p {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.banner-green {
+    text-align: center;
+    background-image: url('assets/bg-image.png');
+    background-position: center;
+    background-size: cover;
+    padding: 1em 0;
+    margin: 2em 0;
+
+}
+
+.banner-green h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.banner-green span {
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-top: 1em;
+}
+
+.section-row-1 {
+    background-color: white;
+    padding-bottom: 1.5em;
+}
+
+.section-row-1 h2 span a {
+    text-decoration: none;
+    color: #007185;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 0.5em;
+}
+
+.section-row-1 span a:hover {
+    text-decoration: underline #007185;
+}
+
+.row-1 {
+    display: flex;
+    width: 100%;
+
+}
+
+.title-row-1 {
+    display: block;
+    padding: 0.5em 0.5em 0;
+}
+
+.img-row-1 {
+    width: 300px;
+    height: 370px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 0.4em;
+    box-shadow: black 2px 2px 5px 0;
+}
+
+.img-visor,
+.img-headphones {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.subtitle-visor,
+.subtitle-headphones {
+    text-align: center;
+    margin-top: 0;
+}
+
+.link-visor,
+.link-headphones {
+    text-decoration: none;
+    cursor: pointer;
+    color: #007185;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 0.5em;
+}
+
+.link-visor:hover,
+.link-headphones:hover {
+    text-decoration: underline #007185;
+}
+
+.visor span,
+.headphones span {
+    margin-left: 0.7em;
+}
+
+.section-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-box {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0.5em;
+}
+
+.card-1 {
+    background-color: white;
+    width: 22%;
+    margin: 2em 0;
+}
+
+.card-box .card-content img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.card-content {
+    width: 45%;
+    position: relative;
+}
+
+.card-content p {
+    text-align: left;
+    font-weight: normal;
+}
+
+
+.card-content .nuovo {
+    position: absolute;
+    width: 50px;
+    margin-top: -2.5em;
+    margin-left: 8.5em;
+}
+
+
+.card-content .nuovo img:hover {
+    box-shadow: none
+}
+
+.link-card {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: #007185;
+}
+
+.card-content img:hover {
+    box-shadow: black 2px 2px 5px 0;
+}
+
+.see-all {
+    padding: 2em 0 1em 2em;
+    font-weight: 600;
+    color: #007185;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.see-all a:hover {
+    text-decoration: underline #007185;
+}
+
+
+.card-title {
+    padding: 0.2em 0.9em
+}
+
+
+.banner-footer {
+    background-color: #354963;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    cursor: pointer;
+}
+
+#logo-amazon-footer {
+    width: 120px;
+    display: block;
+    margin: auto;
+    padding: 0.3em 0;
+    cursor: pointer;
+}
+
+.footer-logo {
+    background-color: #1f2a3a;
+    padding: 3em 0;
+}
+
+.banner-footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner-footer p a:hover {
+    text-decoration: underline white;
+}
